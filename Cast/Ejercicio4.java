@@ -14,13 +14,5 @@ public class Ejercicio4 {
        //la manera correcta es
        int promedio = (int) ((nota1+nota2+nota3)/3);
         System.out.print("promedio " + promedio);
-
-        char variable = 'A';
-
-        int valorASCII = variable;
-
-        System.out.println("El carácter es: " + variable); 
-        System.out.println("Su valor entero (ASCII/Unicode) es: " + valorASCII);
-
     }
 }
