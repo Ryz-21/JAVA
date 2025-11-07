@@ -10,9 +10,9 @@ public class Ejercicio8 {
     
         for (int i = 0; i<cantidad; i++){
             for(int j = 0; j<cantidad; j++){
-              System.err.print("*");
+              System.out.print("*"); //todo en la misma llinea
             }
-            System.err.println();
+            System.out.println(); // salto en lineas distintas 
         }
         sc.close();
 }
