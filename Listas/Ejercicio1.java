@@ -1,5 +1,6 @@
 package Listas;
 
+<<<<<<< HEAD
 import java.util.ArrayList; //traer la clase arraylist 
 import java.util.List; 
 
@@ -22,4 +23,8 @@ public class Ejercicio1 {
     }
     System.out.println("el resultado es" + resultado);
 }
+=======
+public class Ejercicio1 {
+    
+>>>>>>> fabe4c415ad2dbaa15ab2829583b7a7a7ac99792
 }
