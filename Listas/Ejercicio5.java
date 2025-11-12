@@ -1,3 +1,5 @@
+package Listas;
+
 import java.util.*;
 
 public abstract class Ejercicio5 {
