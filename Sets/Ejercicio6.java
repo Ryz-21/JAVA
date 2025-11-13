@@ -28,6 +28,7 @@ public class Ejercicio6 {
 
     public static <T> List <T> unionlistas (List<T> a, List<T> b){
       Set<T> newList= new HashSet<>(a);
+      //addAll une todo
       newList.addAll(b);
       return  new ArrayList<>(newList);
     }
