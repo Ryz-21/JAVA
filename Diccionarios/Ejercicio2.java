@@ -1,4 +1,8 @@
 
+import java.util.HashMap;
+import java.util.Scanner;
+
+
 /**
  * EJERCICIO 2: TRADUCTOR SIMPLE
  * 
@@ -12,6 +16,18 @@
  */
 public class Ejercicio2 {
     public static void main(String[] args) {
-        
+        Scanner sc = new Scanner(System.in);
+        HashMap<String,String> map = new HashMap<>();
+        map.put("hola", "hello");
+        map.put("gato", "cats");
+        System.out.println("ingresar palabra clave");
+        String palabra = sc.nextLine();
+        String resultado = map.get(palabra);
+        if(palabra != null){
+            System.out.println("la palabra guarda es" + resultado);
+        } else {
+            System.out.println("el resultado no existe");
+        }
+        sc.close();
     }
 }
