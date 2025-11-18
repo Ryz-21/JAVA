@@ -20,4 +20,3 @@ public class Ejercicio5 {
         return resultado;
     }
 }
-}
