@@ -40,3 +40,5 @@ public class Ejercicio9 {
                 .forEach(p -> System.out.println("  * " + p));
     } 
 }
+
+
