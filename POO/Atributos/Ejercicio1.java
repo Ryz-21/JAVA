@@ -15,7 +15,44 @@
  * TODO: Implementar la clase Persona con atributos privados,
  *       crear getters y setters, e instanciar en main.
  */
+class persona {
 
+  private  String nombre;
+  private  int edad;
+  private  double altura;
+  private  double peso;
+  public String getNombre() {
+    return nombre;
+  }
+  public void setNombre(String nombre) {
+    this.nombre = nombre;
+  }
+  public int getEdad() {
+    return edad;
+  }
+  public void setEdad(int edad) {
+    this.edad = edad;
+  }
+  public double getAltura() {
+    return altura;
+  }
+  public void setAltura(double altura) {
+    this.altura = altura;
+  }
+  public double getPeso() {
+    return peso;
+  }
+  public void setPeso(double peso) {
+    this.peso = peso;
+  }
+
+}
 public class Ejercicio1 {
-    
+    public static void main(String[] args) {
+        persona perso = new persona();
+
+      perso.setAltura(1.20);
+      double altura =  perso.getAltura();
+      System.out.println("la altura es " + altura);
+    }
 }
