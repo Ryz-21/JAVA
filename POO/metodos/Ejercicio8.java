@@ -6,7 +6,7 @@
 
 public class Ejercicio8 {
 
-    // Método con PARÁMETROS (a y b son parámetros)
+    // Método con parámetros (a y b son parámetros)
     public static void sumar(int a, int b) {
         System.out.println("Resultado: " + (a + b));
     }

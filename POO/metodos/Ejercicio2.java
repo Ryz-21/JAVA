@@ -1,4 +1,5 @@
-public class Ejercicio2 {
+
+
 /*
  * PREGUNTA 2: ¿Qué es la sobrecarga de métodos (Method Overloading)?
 
@@ -7,6 +8,22 @@ public class Ejercicio2 {
  * argumentos pasados.
  *  */
 
+class Calculadora {
+
+    public int suma (int a , int b){
+        return a + b;
+    }
+
+    public int suma ( int a , int b , int c){
+        return a + b + c;
+    }
+
+    public double suma (double a, double b){
+        return a + b;
+    }
+}
+
+public class Ejercicio2 {
     public static void main(String[] args) {
         
         Calculadora calc = new Calculadora();
