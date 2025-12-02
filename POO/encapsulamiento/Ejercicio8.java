@@ -26,5 +26,7 @@
 // TODO: Implementar método obtenerInfo y toString
 
 public class Ejercicio8 {
-    
+      public static void main(String[] args) {
+        
+    }
 }

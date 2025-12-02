@@ -20,5 +20,7 @@
 // TODO: Implementar método consultarSaldo con protección
 
 public class Ejercicio2 {
-    
+      public static void main(String[] args) {
+        
+    }
 }

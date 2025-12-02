@@ -23,5 +23,7 @@
 // TODO: Implementar métodos de mejor y peor calificación
 
 public class Ejercicio5 {
-    
+      public static void main(String[] args) {
+        
+    }
 }

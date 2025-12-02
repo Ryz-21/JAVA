@@ -24,5 +24,7 @@
 // TODO: Implementar validaciones en todos los métodos
 
 public class Ejercicio6 {
-    
+      public static void main(String[] args) {
+        
+    }
 }
