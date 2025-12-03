@@ -28,9 +28,9 @@ class Persona {
         return edad;
     }
 
-    public void setEdad(int edad) {
-        if (edad < 0 || edad > 150) {
-            throw new IllegalArgumentException("La edad debe estar entre 0 y 150.");
+    public void setEdad(int edad){
+        if(edad < 0 || edad > 150 ){
+            throw new IllegalArgumentException("la edad debe ser entre 0 y 150");
         }
         this.edad = edad;
     }
