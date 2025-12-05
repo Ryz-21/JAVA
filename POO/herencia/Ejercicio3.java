@@ -3,7 +3,7 @@ Ejercicio 3: Clase Vehiculo con marca, modelo y método mover().
 Crear Coche (atributo numPuertas), Bicicleta (atributo tipoCambio) y Barco (atributo tonelaje).
  Añadir un método detalle() que sea común y otro modoPropulsion() que puedan sobrescribir las subclases.
  */
-// Clase base (abstracta, como la tenías, funciona bien)
+
 abstract class Vehiculo {
     protected String marca;
     protected String modelo;
