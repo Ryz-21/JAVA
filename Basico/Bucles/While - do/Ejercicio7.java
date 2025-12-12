@@ -7,11 +7,16 @@ public class Ejercicio7 {
 public static void count_a (){
     String v_cadena;
     Scanner sc = new Scanner(System.in);
-
+    double acomulador = 0;
     do{
        System.out.println("ingresar letra contar");
        v_cadena = sc.nextLine();
+       if(v_cadena.equals("a")){
+         acomulador ++;
+         System.out.println("el resultado es " + acomulador);
+       }
     } while (!v_cadena.equals("x"));
+    sc.close();
 }
 public static void main(String[] args) {
     count_a();
