@@ -4,9 +4,9 @@ public class Ejercicio5 {
     public static void astericos (double altura){
         for(int i = 1; i<= altura; i++){
          for (int j = 1; j<= i; j++){
-            System.out.print("*");
+            System.out.print("*"); //imprime sin salto 
            }
-          System.out.println();
+          System.out.println(); //imprime con salto de linea
         }
     }
     public static void main(String[] args) {
