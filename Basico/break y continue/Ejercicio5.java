@@ -6,7 +6,7 @@ public class Ejercicio5 {
                 continue;
             }
             System.out.println("el indice es " + i);
-            if (i == 30){
+            if (i == 29){
                 break;
             }
         }
