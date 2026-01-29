@@ -11,7 +11,6 @@ public class Ejercicio5 {
      * Pista:
      * 
      * ChronoUnit.DAYS.between()
-     * 
      */
 
     public static void DiasEntreFechas(LocalDate fecha1, LocalDate fecha2) {
